@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* Hoja de estilos de EUROGOINI */
+
+body {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+a {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #02b1f4;
+  text-decoration: none;
+}
+
+a:active {
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+p.titulo{
+  color: #3888cb;
+  font-size: 15px;
+  font-stretch:narrower;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom:5px;
+  margin-top:5px;
+
+}
+
+p.linea {
+  color: #696969;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+p.Titulo {	
+  color: #203F79;
+  font-size: 15px;
+  font-stretch:narrower;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom:5px;
+  margin-top:5px;
+
+}
+.TituloArt{
+  color: #203F79;
+  font-size: 20px;
+  font-stretch:narrower;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom:5px;
+  margin-top:5px;
+}
+
+.TextList{
+  color: #696969;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-stretch:narrower;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: right;
+
+}
+
+.informacion {	
+  color: #234178;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.divMenu{
+  background-image:url(ima/menus/fondo.png); 
+  background-repeat:no-repeat; 
+  cursor: pointer;
+  float: right;
+  height:160px;
+  margin: 10px;
+  padding-top: 7px;
+  width:200px; 
+}
+
+.imgArt{
+
+  margin-top: -50px;
+
+}
+
+.imgMenu{
+  margin-top: 10px;
+  max-height: 120px; 
+  max-width: 180px; 
+  min-width: 140px;
+}
+
+.titMenu{
+  color: #FFFFFF;
+  font-size: 15px;
+  font-stretch:narrower;
+  font-weight: bold;
+  margin-bottom:5px;
+  margin-top:5px;
+}
