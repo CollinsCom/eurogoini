@@ -88,7 +88,7 @@ p.Titulo {
 }
 
 .divMenu{
-  background-image:url(ima/menus/fondo.png); 
+  background-image:url(/eurogoini/ima/menus/fondo.png); 
   background-repeat:no-repeat; 
   cursor: pointer;
   float: right;
