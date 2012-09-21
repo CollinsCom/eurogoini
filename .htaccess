@@ -1,0 +1,20 @@
+# Activar RewriteEngine
+Options +FollowSymlinks 
+RewriteEngine on
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  clientes/index.php/
+#   Salida: clientes.php/index.html
+#   RewriteRule ^clientes/(\w+)/?$ clientes.php?id=$1
+
+#   Entrada:  clientes/index.php/
+#   Salida: clientes.php/index.html
+#RewriteRule ^rotoplas$ rotoplas.html
+#RewriteRule ^rotoplas/agroindustrias$ agroindustrias.html
+#RewriteRule ^rotoplas/agroindustrias/accesorios.html$ accesorios.html
+
+RewriteRule ^(.*)/(\w+)\.html$ $2.html
+RewriteRule ^(.*)/(\w+)(/?)$ $2.html
+#RewriteRule ^(.*)/(\w+)$ $2.html
+
+#redireccion de la hoja de estilo
+#RewriteRule ^(.*)//eurogoini/style.css /eurogoini/style.css
