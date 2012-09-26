@@ -2,10 +2,11 @@
 /* Hoja de estilos de EUROGOINI */
 
 body {
-  margin-bottom: 0px;
+  margin: 0px;
+  /*margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: 0px;
+  margin-top: 0px;*/
 }
 
 a {
@@ -15,7 +16,7 @@ a {
 }
 
 a:link {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 a:visited {
@@ -33,6 +34,35 @@ a:active {
   text-decoration: none;
 
 }
+
+
+ul {
+  margin-left: 20px;
+  padding: 0;
+}
+ul.sec{
+  margin-left: 0px;
+}
+
+ul.sec li {
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 0;
+}
+
+ul.sec li:before{ 
+content: "- "
+}
+
+/*ul .ter li {
+  list-style-type: none;
+}
+
+ul .ter li:before{ 
+content: "· "
+}*/
+
+
 p.titulo{
   color: #3888cb;
   font-size: 15px;
@@ -43,13 +73,19 @@ p.titulo{
 
 }
 
-p.linea {
+.linea {
   color: #696969;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
 }
 
-p.Titulo {	
+footer .linea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #FFFFFF;
+}
+
+.Titulo {  
   color: #203F79;
   font-size: 15px;
   font-stretch:narrower;
@@ -59,14 +95,24 @@ p.Titulo {
   margin-top:5px;
 
 }
+.TituloArt {
+  color: #3888cb;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-stretch: narrower;
+  font-weight: bold;
+
+}
+
 .TituloArt{
   color: #203F79;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-stretch:narrower;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
   margin-bottom:5px;
   margin-top:5px;
+  text-align: left;
 }
 
 .TextList{
@@ -95,20 +141,19 @@ p.Titulo {
   height:160px;
   margin: 10px;
   padding-top: 7px;
-  width:200px; 
+  width:200px;
 }
 
 .imgArt{
-
   margin-top: -50px;
-
+  text-transform: lowercase;
 }
 
 .imgMenu{
   margin-top: 10px;
   max-height: 120px; 
   max-width: 180px; 
-  min-width: 140px;
+  min-width: 160px;
 }
 
 .titMenu{
@@ -118,4 +163,14 @@ p.Titulo {
   font-weight: bold;
   margin-bottom:5px;
   margin-top:5px;
+  text-transform: lowercase;
+}
+.cap{
+  color: #FFFFFF;
+  font-size: 15px;
+  font-stretch:narrower;
+  font-weight: bold;
+  margin-bottom:5px;
+  margin-top:5px;
+  text-transform: capitalize;
 }
