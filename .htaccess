@@ -1,11 +1,11 @@
-#htaccess de la pagina eurogoini.com.mx 
+#htaccess de la pagina eurogoini.com 
 # Activar RewriteEngine
 Options +FollowSymlinks 
 RewriteEngine on
 
-RewriteRule ^(.*)/(\w+)\.html$ $2.html
-RewriteRule ^(.*)/(\w+)(/?)$ $2.html
-#RewriteRule ^(.*)/(\w+)$ $2.html
+RewriteRule ^(.*)/(\w+)\.php$ $2.php 
+RewriteRule ^(.*)/(\w+)(/?)$ $2.php 
+#RewriteRule ^(.*)/(\w+)$ $2.php
 
 #redireccion de la hoja de estilo
 #RewriteRule ^(.*)//eurogoini/style.css /eurogoini/style.css

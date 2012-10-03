@@ -1,5 +1,5 @@
 <?php
-	$destino = "eurogoini@eurogoini.com";
+	$destino = "contactos@eurogoini.com";
 	$fecha = date("d-M-y H:i");	
 	$titulo = "Formulario de contacto ($fecha)";
 	$mensaje.="<strong>Informacion general</strong><br><br>\n";
@@ -16,7 +16,7 @@
 	$header = "From: ".$_POST["mail"]."\nReply-To: ".$_POST["mail"]."\n";
 	$header .= "X-Mailer:PHP/".phpversion()."\n";
 	$header .= "Mime-Version: 1.0\n";
-	$header .= "Content-Type: text/html";
+	$header .= "Content-Type: text.php";
 	mail($destino, $titulo, utf8_decode($mensaje), $header);
-    echo"<script language='javascript'>document.location.href='respuesta.html';</script>";
+    echo"<script language='javascript'>document.location.href='respuesta.php';</script>";
 ?>
